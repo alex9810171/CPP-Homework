@@ -1,0 +1,6 @@
+if(!file) //檢查檔案是否成功開啟
+{
+    cout << "檔案無法開啟!\n";
+    system("pause");
+    return 0; 
+}
